@@ -1,5 +1,5 @@
 .main {
-  background-position: center center;
+  background-position: center 30%;
   background-size: cover;
   height: auto;
   left: 0;
@@ -8,6 +8,9 @@
   position: absolute;
   top: 0;
   width: auto;
+  background-image: url('../img/gdun.png');
+  background-size: 250px;
+  background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
   .main {
