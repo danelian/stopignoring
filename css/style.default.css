@@ -8,8 +8,8 @@
   position: absolute;
   top: 0;
   width: auto;
-  background-image: url('../img/gdun.png');
-  background-size: 250px;
+  /* background-image: url('../img/gdun.png'); */
+  /* background-size: 250px; */
   background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
