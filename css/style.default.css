@@ -8,7 +8,7 @@
   position: absolute;
   top: 0;
   width: auto;
-  /* background-image: url('../img/gdun.png'); */
+  background-image: url('../img/Edvard_Munch_Melancholy.jpg');
   /* background-size: 250px; */
   background-repeat: no-repeat;
 }
@@ -146,13 +146,13 @@
   }
 }
 .main .quote {
-  margin-top: 50px;
+  margin-top: 8px;
   text-align: center;
 }
 .main .quote .quote-text {
   color: #fff;
   font-family: 'Slabo 27px', serif;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   font-size: 30px;
@@ -160,7 +160,7 @@
 .main .quote .quote-name {
   color: #fff;
   font-family: 'Slabo 17px', serif;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   font-size: 20px;
