@@ -157,7 +157,9 @@ function player(){
 	  }
 	});
  
-	$(document).on('click touchend', '.speaker', function() {
+	$(document).on('click touchend', '.speaker', function(event) {
+		event.stopPropagation();
+		event.preventDefault();
 	  /* Touchend is necessary for mobile devices, click alone won't work */
 	  if (!$('.speaker').hasClass("speakerplay")) {
 		if (audiostatus == 'off') {
